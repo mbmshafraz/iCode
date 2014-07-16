@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4161ACB7-8675-448D-BE3A-FC0A20982986</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iCode</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BAAA345A-F600-4AC2-BA05-845879EB838D</key>
+		<string>https://bitbucket.org/mbmshafraz/icode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iCode.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BAAA345A-F600-4AC2-BA05-845879EB838D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/mbmshafraz/icode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BAAA345A-F600-4AC2-BA05-845879EB838D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BAAA345A-F600-4AC2-BA05-845879EB838D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

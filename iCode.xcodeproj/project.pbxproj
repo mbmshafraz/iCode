@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		279236731975107400B6E9D7 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 279236741975107400B6E9D7 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				279236791975112500B6E9D7 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				27923678197510EE00B6E9D7 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		272D5E9218CF033700BB6432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D5E9118CF033700BB6432 /* Foundation.framework */; };
+		272D5EA018CF033700BB6432 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D5E9F18CF033700BB6432 /* XCTest.framework */; };
+		272D5EA118CF033700BB6432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D5E9118CF033700BB6432 /* Foundation.framework */; };
+		272D5EA618CF033700BB6432 /* libiCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D5E8E18CF033700BB6432 /* libiCode.a */; };
+		272D5EAC18CF033700BB6432 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 272D5EAA18CF033700BB6432 /* InfoPlist.strings */; };
+		272D5EAE18CF033700BB6432 /* iCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EAD18CF033700BB6432 /* iCodeTests.m */; };
+		272D5EC818CF0A8C00BB6432 /* iCTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EC718CF0A8C00BB6432 /* iCTheme.m */; };
+		272D5ECE18CF0BD000BB6432 /* iCSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5ECD18CF0BD000BB6432 /* iCSingleton.m */; };
+		272D5ED318CF130600BB6432 /* UIApplication+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5ED218CF130600BB6432 /* UIApplication+iCode.m */; };
+		272D5ED418CF130600BB6432 /* UIApplication+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5ED218CF130600BB6432 /* UIApplication+iCode.m */; };
+		272D5ED718CF165E00BB6432 /* NSString+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5ED618CF165E00BB6432 /* NSString+iCode.m */; };
+		272D5ED818CF165E00BB6432 /* NSString+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5ED618CF165E00BB6432 /* NSString+iCode.m */; };
+		272D5EDB18CF170B00BB6432 /* NSData+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EDA18CF170B00BB6432 /* NSData+iCode.m */; };
+		272D5EDC18CF170B00BB6432 /* NSData+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EDA18CF170B00BB6432 /* NSData+iCode.m */; };
+		272D5EDF18CF1C0100BB6432 /* NSObject+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EDE18CF1C0100BB6432 /* NSObject+iCode.m */; };
+		272D5EE018CF1C0100BB6432 /* NSObject+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EDE18CF1C0100BB6432 /* NSObject+iCode.m */; };
+		272D5EE318CF1D3D00BB6432 /* UIColor+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EE218CF1D3D00BB6432 /* UIColor+iCode.m */; };
+		272D5EE418CF1D3D00BB6432 /* UIColor+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EE218CF1D3D00BB6432 /* UIColor+iCode.m */; };
+		272D5EE718CF1DE800BB6432 /* UIImage+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EE618CF1DE800BB6432 /* UIImage+iCode.m */; };
+		272D5EE818CF1DE800BB6432 /* UIImage+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EE618CF1DE800BB6432 /* UIImage+iCode.m */; };
+		272D5EEB18CF1EA400BB6432 /* UIImageView+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EEA18CF1EA400BB6432 /* UIImageView+iCode.m */; };
+		272D5EEC18CF1EA400BB6432 /* UIImageView+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EEA18CF1EA400BB6432 /* UIImageView+iCode.m */; };
+		272D5EEF18CF1FC700BB6432 /* UINavigationController+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EEE18CF1FC700BB6432 /* UINavigationController+iCode.m */; };
+		272D5EF018CF1FC700BB6432 /* UINavigationController+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EEE18CF1FC700BB6432 /* UINavigationController+iCode.m */; };
+		272D5EF318CF242800BB6432 /* UITabBar+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EF218CF242800BB6432 /* UITabBar+iCode.m */; };
+		272D5EF418CF242800BB6432 /* UITabBar+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EF218CF242800BB6432 /* UITabBar+iCode.m */; };
+		272D5EF718CF24BB00BB6432 /* UIView+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EF618CF24BB00BB6432 /* UIView+iCode.m */; };
+		272D5EF818CF24BB00BB6432 /* UIView+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EF618CF24BB00BB6432 /* UIView+iCode.m */; };
+		272D5EFB18CF25CB00BB6432 /* UIButton+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EFA18CF25CB00BB6432 /* UIButton+iCode.m */; };
+		272D5EFC18CF25CB00BB6432 /* UIButton+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EFA18CF25CB00BB6432 /* UIButton+iCode.m */; };
+		2783FCC018D030680072633B /* iCAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2783FCBF18D030680072633B /* iCAppConfig.m */; };
+		2783FCC118D030680072633B /* iCAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2783FCBF18D030680072633B /* iCAppConfig.m */; };
+		279236611974F4AD00B6E9D7 /* iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5E9618CF033700BB6432 /* iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236621974F4B600B6E9D7 /* UIApplication+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5ED118CF130600BB6432 /* UIApplication+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236631974F4C200B6E9D7 /* NSString+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5ED518CF165E00BB6432 /* NSString+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236641974F4CA00B6E9D7 /* NSData+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5ED918CF170B00BB6432 /* NSData+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236651974F4E200B6E9D7 /* NSObject+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EDD18CF1C0100BB6432 /* NSObject+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236661974F4E900B6E9D7 /* UIColor+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EE118CF1D3D00BB6432 /* UIColor+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236671974F4EE00B6E9D7 /* UIImage+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EE518CF1DE800BB6432 /* UIImage+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236681974F4F500B6E9D7 /* UIImageView+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EE918CF1EA400BB6432 /* UIImageView+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236691974F4FB00B6E9D7 /* UINavigationController+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EED18CF1FC700BB6432 /* UINavigationController+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2792366A1974F4FF00B6E9D7 /* UITabBar+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EF118CF242800BB6432 /* UITabBar+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2792366B1974F50600B6E9D7 /* UIView+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EF518CF24BB00BB6432 /* UIView+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2792366C1974F50A00B6E9D7 /* UIButton+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EF918CF25CB00BB6432 /* UIButton+iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2792366D1974F51300B6E9D7 /* iCSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5ECC18CF0BD000BB6432 /* iCSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2792366E1974F51700B6E9D7 /* iCTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EC618CF0A8C00BB6432 /* iCTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2792366F1974F51B00B6E9D7 /* iCAppConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2783FCBE18D030680072633B /* iCAppConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279236711974FB8700B6E9D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279236701974FB8700B6E9D7 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272D5EA418CF033700BB6432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272D5E8618CF033700BB6432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272D5E8D18CF033700BB6432;
+			remoteInfo = iCode;
+		};
+		27923677197510EE00B6E9D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272D5E8618CF033700BB6432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272D5E8D18CF033700BB6432;
+			remoteInfo = iCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		272D5E8E18CF033700BB6432 /* libiCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		272D5E9118CF033700BB6432 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		272D5E9618CF033700BB6432 /* iCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCode.h; sourceTree = "<group>"; };
+		272D5E9E18CF033700BB6432 /* iCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		272D5E9F18CF033700BB6432 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		272D5EA918CF033700BB6432 /* iCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCodeTests-Info.plist"; sourceTree = "<group>"; };
+		272D5EAB18CF033700BB6432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		272D5EAD18CF033700BB6432 /* iCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCodeTests.m; sourceTree = "<group>"; };
+		272D5EC618CF0A8C00BB6432 /* iCTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCTheme.h; sourceTree = "<group>"; };
+		272D5EC718CF0A8C00BB6432 /* iCTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCTheme.m; sourceTree = "<group>"; };
+		272D5ECC18CF0BD000BB6432 /* iCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCSingleton.h; sourceTree = "<group>"; };
+		272D5ECD18CF0BD000BB6432 /* iCSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCSingleton.m; sourceTree = "<group>"; };
+		272D5ED118CF130600BB6432 /* UIApplication+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+iCode.h"; sourceTree = "<group>"; };
+		272D5ED218CF130600BB6432 /* UIApplication+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+iCode.m"; sourceTree = "<group>"; };
+		272D5ED518CF165E00BB6432 /* NSString+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iCode.h"; sourceTree = "<group>"; };
+		272D5ED618CF165E00BB6432 /* NSString+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iCode.m"; sourceTree = "<group>"; };
+		272D5ED918CF170B00BB6432 /* NSData+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+iCode.h"; sourceTree = "<group>"; };
+		272D5EDA18CF170B00BB6432 /* NSData+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+iCode.m"; sourceTree = "<group>"; };
+		272D5EDD18CF1C0100BB6432 /* NSObject+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+iCode.h"; sourceTree = "<group>"; };
+		272D5EDE18CF1C0100BB6432 /* NSObject+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+iCode.m"; sourceTree = "<group>"; };
+		272D5EE118CF1D3D00BB6432 /* UIColor+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iCode.h"; sourceTree = "<group>"; };
+		272D5EE218CF1D3D00BB6432 /* UIColor+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iCode.m"; sourceTree = "<group>"; };
+		272D5EE518CF1DE800BB6432 /* UIImage+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iCode.h"; sourceTree = "<group>"; };
+		272D5EE618CF1DE800BB6432 /* UIImage+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iCode.m"; sourceTree = "<group>"; };
+		272D5EE918CF1EA400BB6432 /* UIImageView+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+iCode.h"; sourceTree = "<group>"; };
+		272D5EEA18CF1EA400BB6432 /* UIImageView+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+iCode.m"; sourceTree = "<group>"; };
+		272D5EED18CF1FC700BB6432 /* UINavigationController+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+iCode.h"; sourceTree = "<group>"; };
+		272D5EEE18CF1FC700BB6432 /* UINavigationController+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+iCode.m"; sourceTree = "<group>"; };
+		272D5EF118CF242800BB6432 /* UITabBar+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+iCode.h"; sourceTree = "<group>"; };
+		272D5EF218CF242800BB6432 /* UITabBar+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+iCode.m"; sourceTree = "<group>"; };
+		272D5EF518CF24BB00BB6432 /* UIView+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+iCode.h"; sourceTree = "<group>"; };
+		272D5EF618CF24BB00BB6432 /* UIView+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+iCode.m"; sourceTree = "<group>"; };
+		272D5EF918CF25CB00BB6432 /* UIButton+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+iCode.h"; sourceTree = "<group>"; };
+		272D5EFA18CF25CB00BB6432 /* UIButton+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+iCode.m"; sourceTree = "<group>"; };
+		273FE94A18D1AA71005F3DAA /* iCode-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iCode-Prefix.pch"; sourceTree = "<group>"; };
+		2783FCBE18D030680072633B /* iCAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCAppConfig.h; sourceTree = "<group>"; };
+		2783FCBF18D030680072633B /* iCAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCAppConfig.m; sourceTree = "<group>"; };
+		279236701974FB8700B6E9D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272D5E8B18CF033700BB6432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279236711974FB8700B6E9D7 /* UIKit.framework in Frameworks */,
+				272D5E9218CF033700BB6432 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272D5E9B18CF033700BB6432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272D5EA618CF033700BB6432 /* libiCode.a in Frameworks */,
+				272D5EA018CF033700BB6432 /* XCTest.framework in Frameworks */,
+				272D5EA118CF033700BB6432 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272D5E8518CF033700BB6432 = {
+			isa = PBXGroup;
+			children = (
+				272D5E9318CF033700BB6432 /* iCode */,
+				272D5EA718CF033700BB6432 /* iCodeTests */,
+				272D5E9018CF033700BB6432 /* Frameworks */,
+				272D5E8F18CF033700BB6432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272D5E8F18CF033700BB6432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272D5E8E18CF033700BB6432 /* libiCode.a */,
+				272D5E9E18CF033700BB6432 /* iCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272D5E9018CF033700BB6432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279236701974FB8700B6E9D7 /* UIKit.framework */,
+				272D5E9118CF033700BB6432 /* Foundation.framework */,
+				272D5E9F18CF033700BB6432 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		272D5E9318CF033700BB6432 /* iCode */ = {
+			isa = PBXGroup;
+			children = (
+				272D5E9618CF033700BB6432 /* iCode.h */,
+				272D5E9418CF033700BB6432 /* Supporting Files */,
+				272D5ED018CF129300BB6432 /* Categories */,
+				272D5ECC18CF0BD000BB6432 /* iCSingleton.h */,
+				272D5ECD18CF0BD000BB6432 /* iCSingleton.m */,
+				272D5EC618CF0A8C00BB6432 /* iCTheme.h */,
+				272D5EC718CF0A8C00BB6432 /* iCTheme.m */,
+				2783FCBE18D030680072633B /* iCAppConfig.h */,
+				2783FCBF18D030680072633B /* iCAppConfig.m */,
+			);
+			path = iCode;
+			sourceTree = "<group>";
+		};
+		272D5E9418CF033700BB6432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				273FE94A18D1AA71005F3DAA /* iCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		272D5EA718CF033700BB6432 /* iCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				272D5EAD18CF033700BB6432 /* iCodeTests.m */,
+				272D5EA818CF033700BB6432 /* Supporting Files */,
+			);
+			path = iCodeTests;
+			sourceTree = "<group>";
+		};
+		272D5EA818CF033700BB6432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				272D5EA918CF033700BB6432 /* iCodeTests-Info.plist */,
+				272D5EAA18CF033700BB6432 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		272D5ED018CF129300BB6432 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				272D5ED118CF130600BB6432 /* UIApplication+iCode.h */,
+				272D5ED218CF130600BB6432 /* UIApplication+iCode.m */,
+				272D5ED518CF165E00BB6432 /* NSString+iCode.h */,
+				272D5ED618CF165E00BB6432 /* NSString+iCode.m */,
+				272D5ED918CF170B00BB6432 /* NSData+iCode.h */,
+				272D5EDA18CF170B00BB6432 /* NSData+iCode.m */,
+				272D5EDD18CF1C0100BB6432 /* NSObject+iCode.h */,
+				272D5EDE18CF1C0100BB6432 /* NSObject+iCode.m */,
+				272D5EE118CF1D3D00BB6432 /* UIColor+iCode.h */,
+				272D5EE218CF1D3D00BB6432 /* UIColor+iCode.m */,
+				272D5EE518CF1DE800BB6432 /* UIImage+iCode.h */,
+				272D5EE618CF1DE800BB6432 /* UIImage+iCode.m */,
+				272D5EE918CF1EA400BB6432 /* UIImageView+iCode.h */,
+				272D5EEA18CF1EA400BB6432 /* UIImageView+iCode.m */,
+				272D5EED18CF1FC700BB6432 /* UINavigationController+iCode.h */,
+				272D5EEE18CF1FC700BB6432 /* UINavigationController+iCode.m */,
+				272D5EF118CF242800BB6432 /* UITabBar+iCode.h */,
+				272D5EF218CF242800BB6432 /* UITabBar+iCode.m */,
+				272D5EF518CF24BB00BB6432 /* UIView+iCode.h */,
+				272D5EF618CF24BB00BB6432 /* UIView+iCode.m */,
+				272D5EF918CF25CB00BB6432 /* UIButton+iCode.h */,
+				272D5EFA18CF25CB00BB6432 /* UIButton+iCode.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		279236601974F4A600B6E9D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279236611974F4AD00B6E9D7 /* iCode.h in Headers */,
+				279236621974F4B600B6E9D7 /* UIApplication+iCode.h in Headers */,
+				279236631974F4C200B6E9D7 /* NSString+iCode.h in Headers */,
+				279236641974F4CA00B6E9D7 /* NSData+iCode.h in Headers */,
+				279236651974F4E200B6E9D7 /* NSObject+iCode.h in Headers */,
+				279236661974F4E900B6E9D7 /* UIColor+iCode.h in Headers */,
+				279236671974F4EE00B6E9D7 /* UIImage+iCode.h in Headers */,
+				279236681974F4F500B6E9D7 /* UIImageView+iCode.h in Headers */,
+				279236691974F4FB00B6E9D7 /* UINavigationController+iCode.h in Headers */,
+				2792366A1974F4FF00B6E9D7 /* UITabBar+iCode.h in Headers */,
+				2792366B1974F50600B6E9D7 /* UIView+iCode.h in Headers */,
+				2792366C1974F50A00B6E9D7 /* UIButton+iCode.h in Headers */,
+				2792366D1974F51300B6E9D7 /* iCSingleton.h in Headers */,
+				2792366E1974F51700B6E9D7 /* iCTheme.h in Headers */,
+				2792366F1974F51B00B6E9D7 /* iCAppConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		272D5E8D18CF033700BB6432 /* iCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272D5EB118CF033700BB6432 /* Build configuration list for PBXNativeTarget "iCode" */;
+			buildPhases = (
+				272D5E8A18CF033700BB6432 /* Sources */,
+				272D5E8B18CF033700BB6432 /* Frameworks */,
+				279236601974F4A600B6E9D7 /* Headers */,
+				279236721975006100B6E9D7 /* Build Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCode;
+			productName = iCode;
+			productReference = 272D5E8E18CF033700BB6432 /* libiCode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		272D5E9D18CF033700BB6432 /* iCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272D5EB418CF033700BB6432 /* Build configuration list for PBXNativeTarget "iCodeTests" */;
+			buildPhases = (
+				272D5E9A18CF033700BB6432 /* Sources */,
+				272D5E9B18CF033700BB6432 /* Frameworks */,
+				272D5E9C18CF033700BB6432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272D5EA518CF033700BB6432 /* PBXTargetDependency */,
+			);
+			name = iCodeTests;
+			productName = iCodeTests;
+			productReference = 272D5E9E18CF033700BB6432 /* iCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272D5E8618CF033700BB6432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Shafraz;
+			};
+			buildConfigurationList = 272D5E8918CF033700BB6432 /* Build configuration list for PBXProject "iCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 272D5E8518CF033700BB6432;
+			productRefGroup = 272D5E8F18CF033700BB6432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272D5E8D18CF033700BB6432 /* iCode */,
+				272D5E9D18CF033700BB6432 /* iCodeTests */,
+				279236731975107400B6E9D7 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272D5E9C18CF033700BB6432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272D5EAC18CF033700BB6432 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		279236721975006100B6E9D7 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\nmkdir -p  \"${SRCROOT}/Build\"\n";
+		};
+		279236791975112500B6E9D7 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\n    exit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\n    RW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\n    RW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\n    RW_OTHER_PLATFORM=iphonesimulator\nelse\n    RW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\n    RW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find other platform build directory.\"\n    exit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\n    build_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\n#ditto \"${RW_FRAMEWORK_LOCATION}\" \"${SRCROOT}/${RW_FRAMEWORK_NAME}.framework\"\n\n#mkdir -p \"${SRCROOT}/Build\"\nrm -rf \"${SRCROOT}/Build/${RW_FRAMEWORK_NAME}.framework\"\n\ncp -a ${RW_FRAMEWORK_LOCATION}  \"${SRCROOT}/Build\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272D5E8A18CF033700BB6432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272D5EEB18CF1EA400BB6432 /* UIImageView+iCode.m in Sources */,
+				272D5EDB18CF170B00BB6432 /* NSData+iCode.m in Sources */,
+				272D5EF318CF242800BB6432 /* UITabBar+iCode.m in Sources */,
+				2783FCC018D030680072633B /* iCAppConfig.m in Sources */,
+				272D5EFB18CF25CB00BB6432 /* UIButton+iCode.m in Sources */,
+				272D5EC818CF0A8C00BB6432 /* iCTheme.m in Sources */,
+				272D5EE718CF1DE800BB6432 /* UIImage+iCode.m in Sources */,
+				272D5EF718CF24BB00BB6432 /* UIView+iCode.m in Sources */,
+				272D5EEF18CF1FC700BB6432 /* UINavigationController+iCode.m in Sources */,
+				272D5EDF18CF1C0100BB6432 /* NSObject+iCode.m in Sources */,
+				272D5ECE18CF0BD000BB6432 /* iCSingleton.m in Sources */,
+				272D5EE318CF1D3D00BB6432 /* UIColor+iCode.m in Sources */,
+				272D5ED718CF165E00BB6432 /* NSString+iCode.m in Sources */,
+				272D5ED318CF130600BB6432 /* UIApplication+iCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272D5E9A18CF033700BB6432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2783FCC118D030680072633B /* iCAppConfig.m in Sources */,
+				272D5EFC18CF25CB00BB6432 /* UIButton+iCode.m in Sources */,
+				272D5EE818CF1DE800BB6432 /* UIImage+iCode.m in Sources */,
+				272D5EF018CF1FC700BB6432 /* UINavigationController+iCode.m in Sources */,
+				272D5EEC18CF1EA400BB6432 /* UIImageView+iCode.m in Sources */,
+				272D5EE418CF1D3D00BB6432 /* UIColor+iCode.m in Sources */,
+				272D5EAE18CF033700BB6432 /* iCodeTests.m in Sources */,
+				272D5EE018CF1C0100BB6432 /* NSObject+iCode.m in Sources */,
+				272D5EF818CF24BB00BB6432 /* UIView+iCode.m in Sources */,
+				272D5ED818CF165E00BB6432 /* NSString+iCode.m in Sources */,
+				272D5ED418CF130600BB6432 /* UIApplication+iCode.m in Sources */,
+				272D5EF418CF242800BB6432 /* UITabBar+iCode.m in Sources */,
+				272D5EDC18CF170B00BB6432 /* NSData+iCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272D5EA518CF033700BB6432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272D5E8D18CF033700BB6432 /* iCode */;
+			targetProxy = 272D5EA418CF033700BB6432 /* PBXContainerItemProxy */;
+		};
+		27923678197510EE00B6E9D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272D5E8D18CF033700BB6432 /* iCode */;
+			targetProxy = 27923677197510EE00B6E9D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		272D5EAA18CF033700BB6432 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272D5EAB18CF033700BB6432 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272D5EAF18CF033700BB6432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		272D5EB018CF033700BB6432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272D5EB218CF033700BB6432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/iCode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCode/iCode-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		272D5EB318CF033700BB6432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/iCode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCode/iCode-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		272D5EB518CF033700BB6432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCode/iCode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iCodeTests/iCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		272D5EB618CF033700BB6432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCode/iCode-Prefix.pch";
+				INFOPLIST_FILE = "iCodeTests/iCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		279236751975107400B6E9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		279236761975107400B6E9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272D5E8918CF033700BB6432 /* Build configuration list for PBXProject "iCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272D5EAF18CF033700BB6432 /* Debug */,
+				272D5EB018CF033700BB6432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272D5EB118CF033700BB6432 /* Build configuration list for PBXNativeTarget "iCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272D5EB218CF033700BB6432 /* Debug */,
+				272D5EB318CF033700BB6432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272D5EB418CF033700BB6432 /* Build configuration list for PBXNativeTarget "iCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272D5EB518CF033700BB6432 /* Debug */,
+				272D5EB618CF033700BB6432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279236741975107400B6E9D7 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279236751975107400B6E9D7 /* Debug */,
+				279236761975107400B6E9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272D5E8618CF033700BB6432 /* Project object */;
+}
