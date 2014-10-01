@@ -63,6 +63,11 @@
                                          encoding:NSASCIIStringEncoding freeWhenDone:YES];
 }
 
+- (NSString*)toString
+{
+    return [NSString stringWithUTF8String:[self bytes]];
+}
+
 + (NSData *)dataWithBase64EncodedString:(NSString *)base64EncodedString
 {
     

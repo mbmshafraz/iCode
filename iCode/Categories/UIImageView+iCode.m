@@ -17,6 +17,7 @@
  */
 
 #import "UIImageView+iCode.h"
+#import "iCode.h"
 
 @implementation UIImageView (iCode)
 
@@ -58,7 +59,7 @@
     
     [self imageWithURL:url placeholderImage:placeholder completionHandler:^(NSURLResponse *response, NSError *connectionError) {
         if (connectionError) {
-            NSLog(@"Error %@",connectionError);
+            iCLog(@"Error %@",connectionError);
         }
     }];
 }

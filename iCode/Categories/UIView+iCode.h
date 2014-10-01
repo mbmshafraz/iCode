@@ -32,5 +32,7 @@
 - (void)setBackgroundColorWithImageName:(NSString *)imageName;
 - (void)setBackgroundColorWithImage:(UIImage *)image;
 - (void)setCornerRadius:(CGFloat)value;
+- (void)setBorderColor:(UIColor*)color;
+- (void)setBorderWidth:(CGFloat)with;
 
 @end

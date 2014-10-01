@@ -22,12 +22,17 @@
 
 + (NSString *)stringWithBase64EncodedString:(NSString *)string;
 - (NSString *)base64EncodedString;
-- (NSString *)urlEncoded;
+- (NSString *)urlEncodedString;
 - (NSString *)filterCharacterSet:(NSCharacterSet *)charactorSet;
 - (NSString *)filterInvertedCharacterSet:(NSCharacterSet *)charactorSet;
 - (NSString *)filterCharactersInString:(NSString *)charactors;
 - (NSString *)filterInvertedCharactersInString:(NSString *)charactors;
 - (NSString *)trim;
 - (int)hexValue;
+- (BOOL)isValidForPattern:(NSString *)pattern;
+- (BOOL)isValidForPattern:(NSString *)pattern withOption:(NSRegularExpressionOptions)option;
+- (BOOL)isEmpty;
+- (NSNumber*)toDecimalNumber;
+- (BOOL)isValidString;
 
 @end

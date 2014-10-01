@@ -23,7 +23,9 @@
 - (void)pushViewController:(UIViewController*)controller
     animatedWithTransition:(UIViewAnimationTransition)transition
 {
+    #ifdef iC_FLIP_TRANSITION_DURATION
     [self pushViewController:controller animatedWithTransition:transition withTransitionDuration:iC_FLIP_TRANSITION_DURATION];
+    #endif
 }
 
 - (void)pushViewController:(UIViewController*)controller
@@ -40,7 +42,9 @@
 
 - (void)popViewControllerAnimatedWithTransition:(UIViewAnimationTransition)transition
 {
+    #ifdef iC_FLIP_TRANSITION_DURATION
     [self popViewControllerAnimatedWithTransition:transition withTransitionDuration:iC_FLIP_TRANSITION_DURATION];
+    #endif
 }
 
 - (void)popViewControllerAnimatedWithTransition:(UIViewAnimationTransition)transition withTransitionDuration:(float)duration{

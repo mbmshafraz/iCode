@@ -30,4 +30,13 @@
 #import "UITabBar+iCode.h"
 #import "UIView+iCode.h"
 #import "UIButton+iCode.h"
+#import "NSDate+iCode.h"
 
+#define iCCurrentMethodNameWithCommet(comment) NSLog(@"%@ %s",comment,__PRETTY_FUNCTION__)
+#define iCCurrentMethodNameWith NSLog(@"%s",__PRETTY_FUNCTION__)
+
+#ifdef DEBUG
+#define iCLog(args...) NSLog(@"\n\n===== %s =====\n LINE    : %d \n MESSAGE : %@ \n==== End Log ====\n\n",__PRETTY_FUNCTION__,__LINE__,[NSString stringWithFormat:args])
+#else
+#define iCLog(args...)
+#endif

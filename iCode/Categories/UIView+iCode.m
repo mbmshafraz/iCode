@@ -110,4 +110,14 @@
     self.layer.masksToBounds = YES;
 }
 
+- (void)setBorderColor:(UIColor *)color
+{
+    self.layer.borderColor = (__bridge CGColorRef)(color);
+}
+
+- (void)setBorderWidth:(CGFloat)with
+{
+    self.layer.borderWidth = with;
+}
+
 @end

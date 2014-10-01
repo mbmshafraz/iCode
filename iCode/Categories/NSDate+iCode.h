@@ -1,6 +1,6 @@
 //
-//  NSData+iCode.h
-//  iCode
+//  NSDate+iCode.h
+//  AvAd
 //
 /*
  
@@ -16,12 +16,27 @@
  
  */
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
-@interface NSData (iCode)
+@interface NSDate (iCode)
 
-- (NSString *)base64EncodedString;
-- (NSString *)toString;
-+ (NSData *)dataWithBase64EncodedString:(NSString *)base64EncodedString;
++ (NSString*)currentDateTimeInFormate:(NSString*)formate;
++ (NSDate*)dateFromeString:(NSString*)dateString inFormate:(NSString*)formate;
+- (NSString*)dateTimeInFormate:(NSString*)formate;
+- (NSDate*)dateByAddingSeconds:(NSInteger)seconds;
+- (NSDate*)dateByAddingMinutes:(NSInteger)minutes;
+- (NSDate*)dateByAddingHours:(NSInteger)hours;
+- (NSDate*)dateByAddingDays:(NSInteger)days;
+- (NSDate*)dateByAddingWeeks:(NSInteger)weeks;
+//- (NSDictionary*)timeDiffSinceDate:(NSDate*)date;
+- (NSInteger)timeDiffInMinutesSince:(NSDate*)date ignoreSeconds:(BOOL)ignoreSeconds;
+- (NSString*)dateTimeInFormate:(NSString*)formate withTimeZoneName:(NSString*)timeZoneName;
+- (NSString*)dateTimeInFormate:(NSString*)formate withTimeZone:(NSTimeZone*)timeZone;
+- (NSString*)utcDateTimeInFormate:(NSString*)formate;
+- (NSDate *) dateWithHour:(NSInteger)hour minute:(NSInteger)minute second:(NSInteger)second;
++ (NSDate *)currentDateWithHour:(NSInteger)hour minute:(NSInteger)minute second:(NSInteger)second;
++ (NSDate *)currentDateWithHourAndMinute:(NSString*)hourAndMinute;
+- (NSDate *)dateWithHourAndMinute:(NSString*)hourAndMinute;
+- (NSDate *)dateWithOutTime;
 
 @end

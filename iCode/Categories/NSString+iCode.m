@@ -37,7 +37,7 @@
     return [data base64EncodedString];
 }
 
--(NSString *) urlEncoded
+-(NSString *) urlEncodedString
 {
     CFStringRef encodedCfStringRef = CFURLCreateStringByAddingPercentEscapes(NULL,(CFStringRef)self,
                                                                              NULL,
@@ -81,4 +81,49 @@
 	return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
+- (BOOL)isValidForPattern:(NSString *)pattern
+{
+    return [self isValidForPattern:pattern withOption:NSRegularExpressionCaseInsensitive];
+}
+
+- (BOOL)isValidForPattern:(NSString *)pattern withOption:(NSRegularExpressionOptions)option
+{
+    
+    NSError *error = nil;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:pattern options:option error:&error];
+    
+    NSRange textRange = NSMakeRange(0, self.length);
+    NSRange matchRange = [regex rangeOfFirstMatchInString:self options:NSMatchingReportProgress range:textRange];
+    
+    BOOL isValid = NO;
+    
+    if (textRange.location == matchRange.location && textRange.length == matchRange.length) {
+        isValid = YES;
+    }
+    
+    return isValid;
+}
+
+- (BOOL)isEmpty
+{
+    if (self == nil || self.length == 0) {
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (NSNumber*)toDecimalNumber
+{
+    NSString *string = [self trim];
+    if (string && string.length > 0) {
+        return [NSDecimalNumber decimalNumberWithString:string];
+    }
+    return nil;
+}
+
+- (BOOL)isValidString
+{
+    return self && [self trim].length > 0 ? YES : NO;
+}
 @end

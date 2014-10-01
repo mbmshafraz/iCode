@@ -52,6 +52,7 @@
 		272D5EF818CF24BB00BB6432 /* UIView+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EF618CF24BB00BB6432 /* UIView+iCode.m */; };
 		272D5EFB18CF25CB00BB6432 /* UIButton+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EFA18CF25CB00BB6432 /* UIButton+iCode.m */; };
 		272D5EFC18CF25CB00BB6432 /* UIButton+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D5EFA18CF25CB00BB6432 /* UIButton+iCode.m */; };
+		2779A656199B653800CB870B /* iCode-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 2779A655199B653800CB870B /* iCode-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		2783FCC018D030680072633B /* iCAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2783FCBF18D030680072633B /* iCAppConfig.m */; };
 		2783FCC118D030680072633B /* iCAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2783FCBF18D030680072633B /* iCAppConfig.m */; };
 		279236611974F4AD00B6E9D7 /* iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5E9618CF033700BB6432 /* iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,6 +71,8 @@
 		2792366E1974F51700B6E9D7 /* iCTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D5EC618CF0A8C00BB6432 /* iCTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2792366F1974F51B00B6E9D7 /* iCAppConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2783FCBE18D030680072633B /* iCAppConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279236711974FB8700B6E9D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279236701974FB8700B6E9D7 /* UIKit.framework */; };
+		27F3DC2919DBE33300F160AF /* NSDate+iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F3DC2719DBE33300F160AF /* NSDate+iCode.h */; };
+		27F3DC2A19DBE33300F160AF /* NSDate+iCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F3DC2819DBE33300F160AF /* NSDate+iCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,9 +128,14 @@
 		272D5EF918CF25CB00BB6432 /* UIButton+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+iCode.h"; sourceTree = "<group>"; };
 		272D5EFA18CF25CB00BB6432 /* UIButton+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+iCode.m"; sourceTree = "<group>"; };
 		273FE94A18D1AA71005F3DAA /* iCode-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iCode-Prefix.pch"; sourceTree = "<group>"; };
+		27626E5A19C0783A0000C2D8 /* NSDate+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iCode.m"; sourceTree = "<group>"; };
+		2779A653199B651700CB870B /* NSDate+iCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+iCode.h"; sourceTree = "<group>"; };
+		2779A655199B653800CB870B /* iCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iCode-Prefix.pch"; path = "iCode/iCode-Prefix.pch"; sourceTree = "<group>"; };
 		2783FCBE18D030680072633B /* iCAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCAppConfig.h; sourceTree = "<group>"; };
 		2783FCBF18D030680072633B /* iCAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCAppConfig.m; sourceTree = "<group>"; };
 		279236701974FB8700B6E9D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27F3DC2719DBE33300F160AF /* NSDate+iCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+iCode.h"; sourceTree = "<group>"; };
+		27F3DC2819DBE33300F160AF /* NSDate+iCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iCode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +164,7 @@
 		272D5E8518CF033700BB6432 = {
 			isa = PBXGroup;
 			children = (
+				2779A655199B653800CB870B /* iCode-Prefix.pch */,
 				272D5E9318CF033700BB6432 /* iCode */,
 				272D5EA718CF033700BB6432 /* iCodeTests */,
 				272D5E9018CF033700BB6432 /* Frameworks */,
@@ -227,6 +236,10 @@
 		272D5ED018CF129300BB6432 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				27F3DC2719DBE33300F160AF /* NSDate+iCode.h */,
+				27F3DC2819DBE33300F160AF /* NSDate+iCode.m */,
+				2779A653199B651700CB870B /* NSDate+iCode.h */,
+				27626E5A19C0783A0000C2D8 /* NSDate+iCode.m */,
 				272D5ED118CF130600BB6432 /* UIApplication+iCode.h */,
 				272D5ED218CF130600BB6432 /* UIApplication+iCode.m */,
 				272D5ED518CF165E00BB6432 /* NSString+iCode.h */,
@@ -274,7 +287,9 @@
 				2792366C1974F50A00B6E9D7 /* UIButton+iCode.h in Headers */,
 				2792366D1974F51300B6E9D7 /* iCSingleton.h in Headers */,
 				2792366E1974F51700B6E9D7 /* iCTheme.h in Headers */,
+				27F3DC2919DBE33300F160AF /* NSDate+iCode.h in Headers */,
 				2792366F1974F51B00B6E9D7 /* iCAppConfig.h in Headers */,
+				2779A656199B653800CB870B /* iCode-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +339,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = iC;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Shafraz;
 			};
 			buildConfigurationList = 272D5E8918CF033700BB6432 /* Build configuration list for PBXProject "iCode" */;
@@ -400,6 +415,7 @@
 				272D5EFB18CF25CB00BB6432 /* UIButton+iCode.m in Sources */,
 				272D5EC818CF0A8C00BB6432 /* iCTheme.m in Sources */,
 				272D5EE718CF1DE800BB6432 /* UIImage+iCode.m in Sources */,
+				27F3DC2A19DBE33300F160AF /* NSDate+iCode.m in Sources */,
 				272D5EF718CF24BB00BB6432 /* UIView+iCode.m in Sources */,
 				272D5EEF18CF1FC700BB6432 /* UINavigationController+iCode.m in Sources */,
 				272D5EDF18CF1C0100BB6432 /* NSObject+iCode.m in Sources */,
@@ -489,7 +505,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -643,6 +659,7 @@
 				279236761975107400B6E9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
